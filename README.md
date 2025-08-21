@@ -18,22 +18,20 @@ The objective of this project is to achieve:
 - **Code Quality & Security:** SonarQube, Trivy  
 - **Build Tool:** Maven  
 - **Containerization:** Docker  
-- **Artifact Management:** JFrog Artifactory  
-- **Orchestration:** Kubernetes (EKS)  
-- **GitOps Deployment:** ArgoCD  
+- **Artifact Management:** Nexus Artifactory  
+- **Orchestration:** Kubernetes (EKS)   
 - **Load Balancing & Routing:** Nginx Ingress  
-- **Auto Scaling:** KEDA  
-- **Monitoring & Logging:** Prometheus & Loki  
+- **Auto Scaling:** EKS  
 - **Infrastructure as Code (IaC):** Terraform  
-- **Cloud Platform:** AWS (EC2, EKS, S3, IAM)  
+- **Cloud Platform:** AWS (EC2, EKS, IAM)  
 
 ---
 
 ## 📂 Project Workflow
 
 ### 🔹 1. Code Commit & Source Control
-- Developers push source code into GitHub repository.  
-- Webhooks trigger Jenkins pipeline.  
+- Developers push source code into the GitHub repository.  
+- Webhooks trigger the Jenkins pipeline.  
 
 ---
 
